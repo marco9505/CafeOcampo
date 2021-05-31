@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+.Header{
+    width:100%;
+    height: 50px;
+    background-color: rgba(245, 231, 33, 0.74);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+}
+.Marca{
+    width:50%;
+    height:50%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Logo{
+    width:25%;
+    height: 50px;
+    align-items: center;
+}
+#LogoMarca{
+    width: 50px;
+    height: 100%;
+}
+
+.Registro{
+    width:25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#boton1{
+    width: 50%;
+    height: 40px;
+    background-color: white;
+}
+button{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+#CarritoCompra{
+    width: 40px;
+    height: 40px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.CuerpoPagina{
+    display: flex;
+}
+.CuerpoPagina1{
+    display: flex;
+    margin-top: 50px;
+}
+.Extremo{
+    background-color: rgba(0, 66, 128, 0.877);
+    width: 8%;
+    height: 974px;   
+}
+.Extremo1{
+    background-color: rgba(0, 66, 128, 0.877);
+    width: 8%;
+    height: 974px;
+}
+.CentroContainer{
+    background-color: whitesmoke;
+    width: 84%;
+    height: 974px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:45% 45%;
+    grid-template-rows: 45% 45%;
+
+    grid-template-areas:
+    "area1 area2 "
+    "area3 area4 ";
+    gap: 10%;
+}
+
+#articulo1{ grid-area: area1}
+#articulo2{ grid-area: area2;}
+#articulo3{ grid-area: area3;}
+#articulo4{ grid-area: area4;}
+
+
+.PieDePagina{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+}
+.FT1{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.FT{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#direcccion{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.containerImg{
+    width: 84%;
+    height: 974px;
+    display: inline-block;
+    position:relative;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    font-family: Brush Script MT,cursive; 
+}
+.texto-encima1{
+    position: absolute;
+    top: 190px;
+    left: 180px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.texto-encima2{
+    position: absolute;
+    top: 270px;
+    left: 160px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+
+#playita{
+    width: 90%;
+    height: 945px;
+    margin: 2%;
+}
+.CuerpoPagina2{
+    display: flex;
+
+}
+.CentroContainer2{
+    background-color: whitesmoke;
+    width: 84%;
+    height: 974px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.TextoIntro{
+    width: 84%;
+    height: 30%;
+    background-color: rgba(0, 102, 255, 0.555);
+    padding: 15px;
+    margin: 15px;
+    
+}
+.VideoIntro{
+    width: 84%;
+    height: 60%;
+    background-color: gray;
+    padding: 15px;
+    margin: 15px;
+}
+.Quienes-Somos{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(245, 231, 33, 0.74);
+    text-align: center;
+    vertical-align: middle;
+    position: sticky;
+    top: 50px;
+}
+.Titulo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    background-color: rgb(0, 132, 255);
+}
+
+.Contenido1{
+    width: 100%;
+    height: 60%;
+    background-color: cornflowerblue;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+.Contenido2{
+    width: 100%;
+    height: 20;
+    background-color: rgb(130, 100, 237);
+}
+
+
+
+
+
+
+
+h1 { font-family: "Brush Script MT", cursive; 
+    font-size: 40px; 
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; } 
+h3 {font-family: "Brush Script MT", cursive;
+    font-size: 40px; 
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: 700;
+    line-height: 15.4px;}
+
+blockquote { font-family: "Brush Script MT", cursive; 
+    font-size: 8px; font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; } 
+
+pre { font-family: "Brush Script MT", cursive; 
+    font-size: 8px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5714px; }
+
+p{  font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 17px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    line-height: 16px; }
+
