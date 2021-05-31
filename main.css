@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+.Header{
+    width:100%;
+    height: 70px;
+    background-color: rgba(255, 255, 0, 0.767);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+}
+.Marca{
+    width:70%;
+    height:50%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Logo{
+    width:15%;
+    height: 70px;
+    align-items: center;
+}
+#LogoMarca{
+    width: 70px;
+    height: 100%;
+}
+
+.Registro{
+    width:15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#boton1{
+    width: 50%;
+    height: 40px;
+    background-color: white;
+}
+button{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+#CarritoCompra{
+    width: 40px;
+    height: 40px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.CuerpoPagina{
+    display: flex;
+    margin-top: 70px;
+}
+
+.Extremo{
+    background-color: rgba(128, 64, 0, 0.5);
+    width: 15%;
+    height: 500px;
+}
+#Centro{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 500px;
+}
