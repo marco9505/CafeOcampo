@@ -68,12 +68,29 @@ img{
     background-color: rgba(128, 64, 0, 0.5);
     width: 15%;
     height: 500px;
+    
 }
-#Centro{
+.CentroContainer{
     background-color: whitesmoke;
     width: 70%;
     height: 500px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:400px 400px;
+    grid-template-rows: 200px 200px);
+
+    grid-template-areas:
+    "area1 area2 "
+    "area3 area4 ";
+    gap: 10%;
 }
+
+#articulo1{ grid-area: area1}
+#articulo2{ grid-area: area2;}
+#articulo3{ grid-area: area3;}
+#articulo4{ grid-area: area4;}
+
+
 .PieDePagina{
     margin-top: 570px
     width: 100%;
