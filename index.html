@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <link media= " (max-width:375px)" rel="stylesheet" href="IphoneX.css">
+    <link media= "(max-width:375px)" rel="stylesheet" href="IphoneX.css">
     <link media= "(min-width:376px) and (max-width:768px)" rel="stylesheet" href="Ipad.css">
     <link media= "(min-width:769px) and (max-width:1023px)" rel="stylesheet" href="Monitor.css">
+    <link rel="stylesheet" href="mainSidebar.css">
 
     <title>Cafe Ocampo</title>
 </head>
@@ -34,6 +35,21 @@
         </div>
     </header>  
 
+    <div id="sidebar">
+        <div class="toggle-btn">
+          <span>&#9776</span>
+        </div>
+        <ul>
+          <li>
+            <img src="LOGO.PNG" alt="Logo CafeOcampo" class="logoSide">
+          </li>
+          <li id="quienesSomos">Quienes Somos?</li>
+          <li id="localidad">Localidad</li>
+          <li id="nuestroCafe">Nuestro café</li>
+          <li id="calidad">Calidad</li>
+        </ul>
+    </div>
+
  <!-- Aqui inicia el primer bloque del cuerpo de pagina que es ... la imagen principal y el 
 texto de... quieres conocer mas sobre cafe ocampo?-->
 
@@ -41,6 +57,8 @@ texto de... quieres conocer mas sobre cafe ocampo?-->
         <section id="izquierda" class="Extremo1">
         </section>
         <section class="containerImg">
+            <div class ="atras botones"> &#60 </div>
+            <div class ="adelante botones"> &#62 </div>
             <img id="playita" src="CafePlaya.PNG" alt="Un cafecito en la playa">
             <div class="texto-encima" style="color: rgb(53, 29, 29)"><h3><b> Quieres conocer sobre Café Ocampo?</b></h3></div>
             <div class="texto-encima1" style="color: aliceblue;"> <p>aqui tendria que ir un texto interesante <br> para que el lector quiera entrar y <br>conocer mas</p></div>
@@ -159,6 +177,8 @@ texto de... quieres conocer mas sobre cafe ocampo?-->
         <div class="FT">
         </div>
     </footer>
-    
+    <script src="main.js"></script>
+    <script src="mainScroll.js"></script>
+    <script src="mainCarrusel.js"></script>
 </body>
 </html>
